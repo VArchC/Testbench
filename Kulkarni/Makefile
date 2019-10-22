@@ -8,7 +8,7 @@ CFLAGS = -static -O0 -I$(VAC_CPU_MIPS_PATH)
 
 TMP = /tmp
 
-vpath $(VAC_IFACE) $(ARCHC_CPU_PATH)
+vpath $(VAC_IFACE) $(VAC_CPU_MIPS_PATH)
 
 NBITS = 2 4 8 12 16
 
